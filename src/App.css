@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 0 15px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.header>h2 {
+    margin-left: 15px;
+}
+
+.btn {
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.backBtn>svg {
+    padding-top: 12px;
+    padding-left: 11px;
+}
+
+.notes {
+    background-color: black;
+}
+
+.noteItem {
+    background: linear-gradient(to right, rgb(31, 28, 28), rgb(110, 110, 151));
+    color: white;
+    margin: 10px 10px;
+    border-radius: 10px;
+    padding: 1px 25px;
+    text-decoration: none;
+}
+
+.textdecoration {
+    text-decoration: none;
+}
+
+.createNoteBtn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: white;
+    padding: 3px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.createNoteHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 20px 30px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.saveBtn {
+    background-color: green;
+    color: white;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 13px;
+}
+
+.titleDesc {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 25px;
+}
+
+.searchInput {
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 10px;
+}
+
+.titleDesc>div>input {
+    width: 81vw;
+    margin-bottom: 10px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.titleDesc>div>textarea {
+    width: 81vw;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.editNoteHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 20px 30px;
+    /* align-items: center; */
+    padding-top: 15px;
+}
+
+.deleteBtn {
+    background-color: rgb(196, 54, 54);
+    color: white;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 13px;
+}
